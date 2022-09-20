@@ -4,10 +4,10 @@
       <Nav />
       <div class="d-flex flex-column w-100">
         <header
-          class="d-flex p-2 mb-5 w-100 h-auto justify-content-between border-bottom"
+          class="d-flex p-2 mb-5 w-100 h-auto justify-content-between align-items-center border-bottom"
         >
           <h1>Dashboard</h1>
-          <button @click="hello">Create Job</button>
+          <button class="btn btn-primary" @click="hello">Create Job</button>
         </header>
 
         <main class="d-flex justify-content-center">

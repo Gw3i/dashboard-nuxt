@@ -1,12 +1,12 @@
 <template>
   <section
-    class="container-md mx-4 p-2 d-flex justify-content-between border rounded"
+    class="container-md mx-4 py-2 px-3 d-flex justify-content-around align-items-center border rounded"
   >
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
+        width="48"
+        height="48"
         fill="currentColor"
         class="bi bi-check-circle"
         viewBox="0 0 16 16"
@@ -21,8 +21,8 @@
     </div>
     <div class="border round" style="height: 150px" />
     <article>
-      <h2>VM Name</h2>
-      <ul>
+      <h2 class="h5">VM Name</h2>
+      <ul class="list-unstyled">
         <li>vCPUs: 4</li>
         <li>RAM: 8192</li>
         <li>NET: halam1</li>
@@ -30,25 +30,32 @@
       </ul>
     </article>
     <div class="border round" style="height: 150px" />
-    <article>
-      <p>192.168.50.120</p>
-      <p>7/8 Snapshots</p>
-      <b-progress :value="value" :max="max" class="mb-3"></b-progress>
-      <p>sending snapshot...</p>
-      <p>7/8 Snapshots</p>
+    <article class="d-flex justify-content-evenly">
+      <ul class="list-unstyled">
+        <li>192.168.50.120</li>
+        <li>7/8 Snapshots</li>
+      </ul>
+      <div class="px-4">
+        <b-progress :value="value" :max="max" class="mb-3"></b-progress>
+        <p>sending snapshot...</p>
+      </div>
+      <ul class="list-unstyled">
+        <li>192.168.50.120</li>
+        <li>7/8 Snapshots</li>
+      </ul>
     </article>
     <div class="border round" style="height: 150px" />
     <article>
-      <h2>DR-ID 454</h2>
-      <ul>
+      <h2 class="h5">DR-ID 454</h2>
+      <ul class="list-unstyled">
         <li>Round: 390</li>
         <li>Erros: 0</li>
       </ul>
-      <button type="button">LOG</button>
+      <button type="button" class="btn btn-secondary">LOG</button>
     </article>
     <div class="border round" style="height: 150px" />
-    <article>
-      <button>
+    <article class="d-flex flex-column">
+      <button class="btn btn-secondary my-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -61,7 +68,7 @@
             d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"
           />
         </svg></button
-      ><button>
+      ><button class="btn btn-secondary my-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
