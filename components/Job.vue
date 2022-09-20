@@ -1,5 +1,7 @@
 <template>
-  <section class="d-flex w-75 justify-content-between border rounded">
+  <section
+    class="container-md mx-4 p-2 d-flex justify-content-between border rounded"
+  >
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -17,6 +19,7 @@
         />
       </svg>
     </div>
+    <div class="border round" style="height: 150px" />
     <article>
       <h2>VM Name</h2>
       <ul>
@@ -26,6 +29,7 @@
         <li>VOL: 9</li>
       </ul>
     </article>
+    <div class="border round" style="height: 150px" />
     <article>
       <p>192.168.50.120</p>
       <p>7/8 Snapshots</p>
@@ -33,6 +37,7 @@
       <p>sending snapshot...</p>
       <p>7/8 Snapshots</p>
     </article>
+    <div class="border round" style="height: 150px" />
     <article>
       <h2>DR-ID 454</h2>
       <ul>
@@ -41,6 +46,7 @@
       </ul>
       <button type="button">LOG</button>
     </article>
+    <div class="border round" style="height: 150px" />
     <article>
       <button>
         <svg
