@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="d-flex w-75 justify-content-between border rounded">
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"

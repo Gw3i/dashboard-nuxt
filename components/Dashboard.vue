@@ -3,12 +3,16 @@
     <div class="d-flex">
       <Nav />
       <div class="d-flex flex-column w-100">
-        <header class="d-flex p-2 mb-5 w-100 h-auto justify-content-between border-bottom">
+        <header
+          class="d-flex p-2 mb-5 w-100 h-auto justify-content-between border-bottom"
+        >
           <h1>Dashboard</h1>
           <button @click="hello">Create Job</button>
         </header>
 
-        <main><Job /></main>
+        <main class="d-flex justify-content-center">
+          <Job />
+        </main>
       </div>
     </div>
   </div>
