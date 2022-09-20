@@ -19,10 +19,12 @@
     </div>
     <article>
       <h2>VM Name</h2>
-      <p>vCPUs: 4</p>
-      <p>RAM: 8192</p>
-      <p>NET: halam1</p>
-      <p>VOL: 9</p>
+      <ul>
+        <li>vCPUs: 4</li>
+        <li>RAM: 8192</li>
+        <li>NET: halam1</li>
+        <li>VOL: 9</li>
+      </ul>
     </article>
     <article>
       <p>192.168.50.120</p>
@@ -33,8 +35,10 @@
     </article>
     <article>
       <h2>DR-ID 454</h2>
-      <p>Round: 390</p>
-      <p>Erros: 0</p>
+      <ul>
+        <li>Round: 390</li>
+        <li>Erros: 0</li>
+      </ul>
       <button type="button">LOG</button>
     </article>
     <article>
